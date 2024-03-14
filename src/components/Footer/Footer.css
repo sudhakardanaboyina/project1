@@ -1,0 +1,13 @@
+.footer {
+    font-size: 0.8rem;
+    margin: 0;
+    color: white; /* Example: Set text color to white */
+  
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  
+    background-color: #585889;
+    padding: 10px;
+    text-align: center;
+  }
