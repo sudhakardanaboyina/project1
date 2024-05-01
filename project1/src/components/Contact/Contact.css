@@ -1,0 +1,151 @@
+.contact-form-content{
+    margin-top: 6rem; 
+    margin-bottom: 3rem;
+}
+.contact-form-content h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+}
+.card-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 2rem;
+
+}
+.card-contact:hover{
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px 2px;
+    color:#726b8f;
+}
+
+form{
+    display: flex;
+    flex-direction:column;
+    width:80%;
+    padding: 2rem;
+    color:#726b8f;
+}
+
+.btn-class{
+    display: flex;
+    flex-direction: row;
+    gap:3rem;
+    justify-content: center;   
+}
+.btn{
+    width:300px;
+}
+#btn1:hover{ 
+    color: green;
+    background-color: white;        
+}
+#btn2:hover{ 
+    color: red;
+    background-color: white;        
+}
+.img-section img{
+    height:100%;
+    width:100%;
+}
+
+@media (max-width:925px){
+    .contact-form-content{
+        margin-top: 6rem; 
+      
+    }
+    .contact-form-content h2{
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 300;
+    }
+    .card-contact{
+        display: flex;
+        flex-direction: column-reverse;
+        height:100%;
+        width: 100%; 
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        gap:3rem;  
+    }
+    .card-contact:hover{
+        box-shadow: 0px 0px 8px 2px;
+    }
+    form{
+        text-align: left;
+        font-size:1.4rem;
+        width: 100%;   
+       
+    }
+    
+    .btn-class{
+        display: flex;
+        flex-direction: row;
+        gap:3rem;
+        justify-content: center;
+        align-items: center;
+            
+    }
+    .btn{
+        width:100px;    
+    
+    }
+   
+
+
+}
+@media (min-width:925px) and (max-width:1025px) {
+    .contact-form-content{
+        margin-top: 6rem; 
+      
+    }
+    .contact-form-content h2{
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 300;
+    }
+    .card-contact{
+        display: flex;
+        flex-direction: row;
+        height:100%;
+        width: 100%; 
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        gap:3rem;
+        margin: 2rem;   
+    }
+    .card-contact:hover{
+        box-shadow: 0px 0px 8px 2px;
+    }
+    form{
+        text-align: left;
+        font-size:1.4rem;
+        width: 100%;   
+       
+    }
+    
+    .btn-class{
+        display: flex;
+        flex-direction: row;
+        gap:3rem;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .btn{
+        width:100px;
+    
+    }
+    .img-section img{
+        height: 35rem;
+        width: 100%;
+    }
+
+
+}
